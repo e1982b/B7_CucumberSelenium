@@ -1,7 +1,8 @@
 @NavigationMenu @all
 Feature: Navigation Menu
-Background: # precondition seklinde calisir. Tüm scenariolarda ortak varsa yazilir
-  Given The user is on the login page
+
+  Background: # precondition seklinde calisir. Tüm scenariolarda ortak varsa yazilir
+    Given The user is on the login page
 
   @developer
   Scenario: Navigation to Developers menu
@@ -11,6 +12,7 @@ Background: # precondition seklinde calisir. Tüm scenariolarda ortak varsa yazi
     When The user navigates to Developers menu
     Then The user should be able to see Developer text
 
+  @smoke
   Scenario: Navigation to All Posts menu
     #Given The user is on the login page
     When The user enters with student credentials

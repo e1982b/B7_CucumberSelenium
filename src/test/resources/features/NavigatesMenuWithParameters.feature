@@ -25,7 +25,7 @@ Feature: Navigate to Menu with Parameters
     And The user navigates to "My Account" menu
     Then The user should be able to see header as "Dashboard"
 
-  @so
+  @smoke @so
   Scenario Outline: Navigate to Menu with SO
     When The user logs in using "<userType>" and "<password>"
     Then The welcome message contains "<welcomeMessage>"
