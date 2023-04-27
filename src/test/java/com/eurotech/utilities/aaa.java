@@ -5,5 +5,7 @@ public class aaa {
         System.out.println("ho ho ho");
         System.out.println("ho ho ho");
         System.out.println("ho ho ho");
+        System.out.println("ho ho ho");
+        System.out.println("ho ho ho");
     }
 }
