@@ -2,3 +2,5 @@
 configuration.properties
 main
 target
+com.eurotech.utilities.Driver
+com.eurotech.utilities.aaa
