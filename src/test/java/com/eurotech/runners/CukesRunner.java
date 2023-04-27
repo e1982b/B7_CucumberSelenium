@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         glue = "com/eurotech/step_definitions",
         dryRun = false, // true olunca sadece tanimsiz teslerin sonuclarini gösterir
         tags = "@smoke" // "@developer or @teacher" ## "@sdet and @wip" ## "@login and not @wip" ## @Login ## @wip ## @login and @sdet
-
+        // Terminalden belirli bir tag i calistirmak icin ==> mvn verify "-Dcucumber.filter.tags=@so"
 )
 public class CukesRunner {
 
