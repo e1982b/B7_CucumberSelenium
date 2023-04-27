@@ -1,6 +1,7 @@
 @login @smoke @regression @all
 Feature: DevEx Login Test
   //work in progress. Belirli testleri calistirmak icin ikinci bir assertion eklenip onunla cagrilir
+
   @teacher
   Scenario: Login as a teacher
     Given The user is on the login page

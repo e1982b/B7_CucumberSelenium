@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/eurotech/step_definitions",
         dryRun = false, // true olunca sadece tanimsiz teslerin sonuclarini gösterir
-        tags = "@ep" // "@developer or @teacher" ## "@sdet and @wip" ## "@login and not @wip" ## @Login ## @wip ## @login and @sdet
+        tags = "@smoke" // "@developer or @teacher" ## "@sdet and @wip" ## "@login and not @wip" ## @Login ## @wip ## @login and @sdet
 
 )
 public class CukesRunner {

@@ -4,6 +4,7 @@ Feature: Negative Login Test
   Background:
     Given The user is on the login page
 
+  @smoke
   Scenario Outline: Negative Login Test
     Given The user is on the login page
     When The user logs in using "<userType>" and "<password>"
