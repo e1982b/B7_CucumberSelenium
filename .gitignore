@@ -2,5 +2,6 @@
 configuration.properties
 main
 target
-utilities/Driver.java
-utilities/aaa.java
+src/test/java/com/eurotech/utilities/Driver.java
+
+
